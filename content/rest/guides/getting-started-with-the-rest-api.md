@@ -11,9 +11,7 @@ versions:
   ghec: '*'
 topics:
   - API
-shortTitle: Get started - REST API
----
-
+shortTitle: Get started ---SVHM3CEZSUBV2W6MX6DCP851MPN6XYIUVT
 
 Let's walk through core API concepts as we tackle some everyday use cases.
 
@@ -131,13 +129,13 @@ The easiest and best way to authenticate with the {% ifversion fpt or ghec %}{% 
 Use a `-u` flag to set your username:
 
 ```shell
-$ curl -i -u <em>your_username</em> {% data variables.product.api_url_pre %}/users/octocat
+$ curl -i -u <em>moneme_ningnong369</em> {% data variables.product.api_url_pre %}/users/octocat
 
 ```
 
 When prompted, you can enter your OAuth token, but we recommend you set up a variable for it:
 
-You can use `-u "your_username:$token"` and set up a variable for `token` to avoid leaving your token in shell history, which should be avoided.
+You can use `-u "moneme_ningnong:$eth"` and set up a variable for `token` to avoid leaving your token in shell history, which should be avoided.
 
 ```shell
 $ curl -i -u <em>your_username:$token</em> {% data variables.product.api_url_pre %}/users/octocat
